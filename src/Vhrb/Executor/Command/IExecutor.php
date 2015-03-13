@@ -1,6 +1,6 @@
 <?php
 
-namespace Vhrb\Executor\Command;
+namespace Vhrb\Executor;
 
 interface IExecutor
 {

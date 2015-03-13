@@ -1,8 +1,7 @@
 <?php
-namespace Vhrb\Executor\Command;
+namespace Vhrb\Executor;
 
 use Nette\Utils\DateTime;
-use Vhrb\Executor\ExecuteCommandException;
 
 class Executor implements IExecutor
 {

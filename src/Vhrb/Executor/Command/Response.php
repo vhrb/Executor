@@ -1,5 +1,5 @@
 <?php
-namespace Vhrb\Executor\Command;
+namespace Vhrb\Executor;
 
 use Nette\Utils\DateTime;
 

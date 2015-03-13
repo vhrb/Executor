@@ -1,2 +1,2 @@
-# executor
+# Executor
 PHP shell commands executor

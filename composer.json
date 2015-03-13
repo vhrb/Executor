@@ -1,0 +1,27 @@
+{
+	"name": "vhrb/executor",
+	"description": "PHP shell commands executor",
+	"license": "Apache-2.0",
+	"authors": [
+		{
+			"name": "Michal Dobrovolný",
+			"email": "xdobro4@gmail.com"
+		}
+	],
+	"minimum-stability": "stable",
+	"require": {
+		"nette/utils": "~2"
+	},
+	"require-dev": {
+		"nette/tester": "~1",
+		"mockery/mockery": "0.9.*@dev"
+	},
+	"autoload": {
+		"psr-0": {
+			"Vhrb\\Executor\\": "src/"
+		},
+		"classmap": [
+			"src/Vhrb/Executor/exceptions.php"
+		]
+	}
+}
